@@ -1,5 +1,7 @@
 // require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config({ path: ".env" });
+require("@nomiclabs/hardhat-ethers");
+require("@nomiclabs/hardhat-etherscan");
 
 const ALCHEMY_HTTP_URL = process.env.ALCHEMY_HTTP_URL;
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
